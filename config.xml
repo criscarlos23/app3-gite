@@ -14,6 +14,7 @@ Datos de la bicicleta
   Maria Cristina Carlos Bueno
 </author>
 
+
 <!--Personaliza la aplicacion y plataforma -->
 <preference name="orientation" value="default"/>
 <!--<preference name="orientation" value="portrait" />
@@ -23,13 +24,13 @@ Datos de la bicicleta
 <preference name="android-installLocation" value="auto"/>
 <preference name="permissions" value="INTERNET"/>
 
-
 <!--Para accesar a paginas en intyernet-->
 <allow-intent href"https://*/*"/>
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
 <pugin name="cordova-plugin-whitelist" source"npm"/>
+
 <!--Plugins-->
 <!--core plugins-->
 <plugin name="cordova-plugin-device" spec="~1.1.4"/>
