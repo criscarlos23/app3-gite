@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>  
+<?xml version="1.0" encoding="UTF-8"?>        
+
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id ="com.phonegap.app1"
@@ -7,7 +8,7 @@ version = "1.0.0">
 <name> app3 Dia mundial de la bicicleta </name>
 
 <description>
-Datos de la bicicleta
+aplicacion sobre el dia mundial de la bicicleta
 </description>
 
 <author href="https://build.phonegap.com" email= "crispottercarlos23@hotmail.com">
@@ -29,7 +30,7 @@ Datos de la bicicleta
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
-<pugin name="cordova-plugin-whitelist" source"npm"/>
+<plugin name="cordova-plugin-whitelist" source"npm"/>
 
 <!--Plugins-->
 <!--core plugins-->
