@@ -2,7 +2,7 @@
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
-id ="com.phonegap.app1"
+id ="com.phonegap.app3"
 version = "1.0.0">
 
 <name> app3 Dia mundial de la bicicleta 2</name>
@@ -30,7 +30,7 @@ aplicacion sobre el dia mundial de la bicicleta
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
-<plugin name="cordova-plugin-whitelist" source"npm"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!--Plugins-->
 <!--core plugins-->
