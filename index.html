@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<title>Datos de Alumno</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/themes/tema13.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/48878.png','imagenes/ecobici_0.jpg')">
+ <div data-role="page" id="Principal" data-theme="a">
+  
+  <div data-role="header" data-add-back-btn="true" data-add-back-text="Regresar" data-add-back-theme="a">
+   <h1>Dia Mundial de la Bicicleta</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Banner conmemorativo</h1>
+    <div>
+      <p> 19 de abril Dia mundial de la bicicleta</p>
+      <br>
+      </div>
+      <div>
+       <img src="imagenes/19-de-abril-dia-bicicleta-4-e1461017361556.png" width="60%" height="60%">
+       </div>
+      </div>
+     </div>
+     <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Historia de la Bicicleta</h2>
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Utilizacion  como medio de transporte</h2>
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Tipos de bicicletas</h2>
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> 5 marcas importantes de bicicletas</h2>
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Porque se celebra el dia mundial de la bicicleta</h2>
+       </a>
+     </li>
+    </ul>
+   </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+     <h4> Aplicacion tres</h4>
+     <h4> Maria Cristina Carlos Bueno</h4>
+  </div>
+ </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Historia de la bicicleta</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p>  La primera bicicleta, fabricada con madera, se llamaba draisina porque la inventó Karl Drais en 1817. No tenía pedales: había que empujarla con los pies en el suelo. Para resolver el problema de la falta de equilibrio, en 1873, un inventor inglés llamado James Starley propuso una máquina con la rueda delantera mucho más grande que la trasera. En enero de 1887, el norteamericano Thomas Stevens comenzó el primer viaje en bicicleta alrededor del mundo.En 1885, aparece la Safety Bicycle inventada por John Kemp Starley. Tenía frenos, permitía una postura más natural y el ciclista estaba más cerca del suelo, por lo que las caídas no eran tan peligrosas. La bicicleta servía tanto para el campo como para la ciudad. Era un medio de transporte barato y accesible a cualquier persona. Además se puede arreglar con unos pocos conocimientos de mecánica. En la actualidad, existen unas 800 millones de bicicletas en el mundo y son utilizadas como medio de transporte principal o como vehículo de ocio.</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/48878.png',1)"><img src="imagenes/historia-de-la-bicicleta-1-728.jpg" width="60%" height="60%" id="Image21"></a> 
+    </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicacion Tres, MCCB</h4>
+   </div>
+  </div>
+ 
+  <div data-role="page" id="Pagina2" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Utilizacion  como medio de transporte</h1>
+     </div>
+    <div data-role="content"  align="center">
+     <div>
+        <p>La bicicleta sí es efectiva como medio de transporte para distancias no tan extensas, para usarla dentro de una ciudad o pueblo es de mucha utilidad.El uso de la bicicleta está extendido en casi todo el continente europeo. En países como Holanda, Suiza, Alemania, unas zonas de Polonia y en los países nórdicos; se ha convertido en uno de los primordiales medios de transporte. Pasando a Asia, fundamentalmente en China y La India, es la primera forma de transporte.Actualmente, en el mundo, existen cerca de 800 millones de bicicletas, siendo China el país poseedor de la mayor cantidad de estos vehículos.</p>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/ecobici_0.jpg',1)"><img src="imagenes/file_20150217084259.jpg" width="60%" height="60%" id="Image22"></a> </div>
+       </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+     </div>
+       <h4> Aplicacion Tres, MCCB </h4>
+    </div>
+    </div>
+    
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Tipos de bicicletas</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p>  1.-Bicicletas de Montaña (MTB):Las bicicletas de montaña, están equipadas con llantas anchas con dibujos marcados para mejorar el agarre en terrenos sueltos. </p>
+    <p>  2.-Bicicletas de Ruta:Son bicicletas orientadas a obtener velocidad en pavimento, de construcción más ligera que otras bicicleta, están dotadas con ruedas más grandes, delgadas y provistas de           llantas angostas y con dibujo liso. </p>
+     <p> 3.-Bicicletas Híbridas:son bastante versátiles nacieron como una solución para quienes necesitan una bicicleta para la ciudad pero que tenga la flexibilidad de ser usada en diferentes           terrenos.</p>
+    <p>  4.-Bicicletas Urbanas:Estas bicicletas fueron concebidas para la ciudad, por lo que son de construcción bastante solida tanto en su cuadro como en sus ruedas. </p>
+    <p>  5.-Bicicletas plegables:La gran mayoría de estas bicicletas usan ruedas pequeñas, siendo 16 y 20″ las más comunes En general vienen equipadas con 18- 20 cambios.</p>
+    <p>  6.-Fixies y single speed:Su principal característica es su diseño simple y en muchos casos minimalista, sumamente eficientes y funcionales.</p>
+    <p>  7.-Cruisers:Este tipo de bicicletas están diseñadas para trayectos cortos y sobre pavimento preferencialmente. </p>
+    <p>  8.-MBX:Las BMX utilizan cuadros pequeños y resistentes, ideales para saltos y acrobacias. </p>
+    <p>  9.-Touring:Estas bicicletas se usan para recorrer largas distancias y cargar peso. </p>
+    <p>  10.-Eléctricas:son todas aquellas bicis que utilizan un motor para asistir el pedaleo. </p>
+    <p>  11.-Bicicletas utilitarias:Al ser utilizadas para mover carga,una relación de velocidades adecuada para mover el peso extra. <p>
+    <p>  12.-Fat Bikes:on de reciente aparición y su uso principal es sobre terrenos con nieve o arena, grandes piedras, raíces, etc. <p>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/mtb.jpg" alt="MTB" title="MTB" id="wows1_0"/></li>
+		<li><img src="data1/images/hibrida.jpg" alt="hibrida" title="hibrida" id="wows1_1"/></li>
+		<li><img src="data1/images/ruta.jpg" alt="ruta" title="ruta" id="wows1_2"/></li>
+		<li><img src="data1/images/ciudad.jpg" alt="ciudad" title="ciudad" id="wows1_3"/></li>
+		<li><img src="data1/images/plegable.jpg" alt="plegable" title="plegable" id="wows1_4"/></li>
+		<li><img src="data1/images/fixie.jpg" alt="fixie" title="fixie" id="wows1_5"/></li>
+		<li><img src="data1/images/cruiser.jpg" alt="cruiser" title="cruiser" id="wows1_6"/></li>
+		<li><img src="data1/images/mbx.jpg" alt="MBX" title="MBX" id="wows1_7"/></li>
+		<li><img src="data1/images/touring.jpg" alt="touring" title="touring" id="wows1_8"/></li>
+		<li><img src="data1/images/electricas.jpg" alt="electricas" title="electricas" id="wows1_9"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/cargo.jpg" alt="jquery carousel" title="cargo" id="wows1_10"/></a></li>
+		<li><img src="data1/images/fat_bike.jpg" alt="fat_bike" title="fat_bike" id="wows1_11"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="MTB"><span><img src="data1/tooltips/mtb.jpg" alt="MTB"/>1</span></a>
+		<a href="#" title="hibrida"><span><img src="data1/tooltips/hibrida.jpg" alt="hibrida"/>2</span></a>
+		<a href="#" title="ruta"><span><img src="data1/tooltips/ruta.jpg" alt="ruta"/>3</span></a>
+		<a href="#" title="ciudad"><span><img src="data1/tooltips/ciudad.jpg" alt="ciudad"/>4</span></a>
+		<a href="#" title="plegable"><span><img src="data1/tooltips/plegable.jpg" alt="plegable"/>5</span></a>
+		<a href="#" title="fixie"><span><img src="data1/tooltips/fixie.jpg" alt="fixie"/>6</span></a>
+		<a href="#" title="cruiser"><span><img src="data1/tooltips/cruiser.jpg" alt="cruiser"/>7</span></a>
+		<a href="#" title="MBX"><span><img src="data1/tooltips/mbx.jpg" alt="MBX"/>8</span></a>
+		<a href="#" title="touring"><span><img src="data1/tooltips/touring.jpg" alt="touring"/>9</span></a>
+		<a href="#" title="electricas"><span><img src="data1/tooltips/electricas.jpg" alt="electricas"/>10</span></a>
+		<a href="#" title="cargo"><span><img src="data1/tooltips/cargo.jpg" alt="cargo"/>11</span></a>
+		<a href="#" title="fat_bike"><span><img src="data1/tooltips/fat_bike.jpg" alt="fat_bike"/>12</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section --><strong></strong>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicacion Tres, MCCB </h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>5 marcas  importantes de bicicletas</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>5 marcas importantes de bicicletas</h2>
+   <p> – Specialized</p>
+   <div>
+   <img src="imagenes/bicicleta-btt-specialized-rockhopper-29-2017_20164437_59 (1).jpg" height="60%" width="60%">
+   </div>
+   <p> – Scott </p>
+   <div>
+   <img src="imagenes/265257_211199_png_zoom_3.jpg" height="60%" width="60%">
+   </div>
+   <p> – Giant</p>
+   <div>
+   <img src="imagenes/ToughRoad-SLR-2_Color-A_Black.jpg" height="60%" width="60%">
+   </div>
+   <p> – Cannondale</p>
+   <div>
+   <img src="imagenes/C26438M70LG.jpg" height="60%" width="60%">
+   </div>
+   <p> – Merida</p>
+   <div>
+   <img src="imagenes/bicicleta-de-montana-merida-big-nine-6000-2017.jpg" height="60%" width="60%">
+   </div>
+     </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicacion Tres, MCCB</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Porque se celebra el dia mundial de la bicicleta</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Porque se celebra el dia mundial de la Bicicleta</h2>
+         <p>Una persona se despierta todavía en la oscuridad de su habitación. Es lunes por la mañana y hoy empieza su semana laboral. Una ducha rápida para terminar de desperezarse, un desayuno fugaz. Llaves, cartera, móvil. Ya está lista para enfrentarse al día. Sale de casa y al llegar al portal se acerca a una bicicleta, encadenada todavía, para liberarla y abrirse paso a través de las calles de la ciudad.De qué ciudad? De cualquiera. La silueta de nuestro protagonista, hombre o mujer, puede recortar la Torre Eiffel en París, la Casa Rosada en Buenos Aires, el Templo del Cielo en Pekín o la Catedral de Amberes. Puede que vaya abrigado para combatir el viento que sopla en su cara o puede que vaya con ropa de verano y a un ritmo apaciguado porque el sol ya empieza a calentar. De cualquier manera, esta persona forma parte de una comunidad de mil millones de miembros que, con este sencillo ritual, están contribuyendo a salvar el Planeta de un modo que tal vez ni ellos se imaginan.</p>
+         <div>
+         <img src="imagenes/dia-mundial-bicicleta-destacada.png" height="60%" width="60%">
+         </div>
+         <br>
+   </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicacion Tres, MCCB</h4>
+   </div>
+  </div>
