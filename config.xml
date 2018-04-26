@@ -26,7 +26,7 @@ aplicacion sobre el dia mundial de la bicicleta
 <preference name="permissions" value="INTERNET"/>
 
 <!--Para accesar a paginas en intyernet-->
-<allow-intent href"https://*/*"/>
+<allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
